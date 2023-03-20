@@ -147,7 +147,7 @@ BEGIN
       SET Leaders_Icon = "Strong"
       WHERE School_ID = in_School_ID ;
       
-   ELSEIF in_Leader_Score <= 100 THEN
+   ELSEIF in_Leader_Score < 100 THEN
       UPDATE chicago_public_schools
       SET Leaders_Icon = "Very strong"
       WHERE School_ID = in_School_ID ;
