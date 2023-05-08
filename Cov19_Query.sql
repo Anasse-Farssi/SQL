@@ -1,3 +1,6 @@
+-----------------------     https://ourworldindata.org/covid-deaths     ----------------------- 
+
+
 SELECT  * FROM cov19..cases 
 SELECT  * FROM cov19..vac
 SELECT  * FROM cov19..newdt

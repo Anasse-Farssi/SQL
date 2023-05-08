@@ -1,4 +1,4 @@
-
+-------------------------------     https://www.kaggle.com/datasets/ferranindata/hotel-revenue-data-project     -------------------------------
 		WITH Hotel AS (
 		SELECT * FROM dbo.['2018']
 		UNION
